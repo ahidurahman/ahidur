@@ -3,6 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="dark">
+<meta name="theme-color" content="#050507">
 <title>Marvell Digital Appliance — Chairman's Digital Card</title>
 <meta name="description" content="Official digital visiting card — Marvell Digital Appliance">
 
@@ -30,6 +32,7 @@
 <style>
   /* ============ EDIT COLORS ============ */
   :root{
+    color-scheme: dark;
     --void: #050507;
     --panel: #09090b;
     --panel-2: #0f0f12;
@@ -251,10 +254,8 @@
     letter-spacing:-0.01em;
     line-height:1.2;
     margin-bottom:8px;
-    background:linear-gradient(100deg, var(--white) 35%, #e8e6e1 60%, var(--white) 85%);
-    -webkit-background-clip:text;
-    background-clip:text;
-    -webkit-text-fill-color:transparent;
+    color:var(--white);
+    text-shadow:0 2px 16px rgba(0,0,0,0.5);
   }
 
   /* EDIT NAME: title + company */
